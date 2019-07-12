@@ -9,7 +9,7 @@
 //    <div class="tab">topic here</div>
 
 
-const span = document.querySelector('.title');
+
 axios.get(` https://lambda-times-backend.herokuapp.com/topics`)
 .then(response => {
     for (let i = 0; i < response.data.topics.length; i++) {
